@@ -38,3 +38,6 @@ The development and testing process of the project was done on a Windows 64-bit 
 In the project directory, there is a Powershell script (´build.ps1´) which is used to compile the project. If it is not possible to use Powershell, the compilation can be performed using:
 
 ´´´ gcc -o debug -Wall main.c db/db.c ´´´
+
+### Observation
+This numbers (222006848) is my registration on the university
