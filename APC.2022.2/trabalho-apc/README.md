@@ -22,3 +22,19 @@ projeto. Caso não seja possível utilizar o Powershell, a compilação pode ser
 ´´´
 gcc -o debug -Wall main.c db/db.c
 ´´´
+
+
+## English version
+
+### Project description
+
+The project, in C language, consisted of writing a simple database system capable of reading and writing data to a CSV file and performing different operations on top of that foundation. In the case of the project, a basic registration system for Brazilian citizens was written.
+
+People's registration uses their CPF (individual taxpayer registration), name, date of birth, city and state of residence, and gender. The program is also capable of validating each of this information, performing queries, generating reports, among other features.
+
+compilation and execution
+The development and testing process of the project was done on a Windows 64-bit operating system. The compiler used was 'GCC', using version 11.2.0.
+
+In the project directory, there is a Powershell script (´build.ps1´) which is used to compile the project. If it is not possible to use Powershell, the compilation can be performed using:
+
+´´´ gcc -o debug -Wall main.c db/db.c ´´´
